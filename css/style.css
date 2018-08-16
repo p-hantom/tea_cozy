@@ -1,0 +1,181 @@
+html{
+  display: block;
+}
+
+body{
+  margin: 0;
+  color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;
+  background-color: black;
+  font-size: 22px;
+  display: block;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+header .img{
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+header img{
+  height: 50px;
+  opacity: 0.9;
+}
+
+header nav{
+  padding-right: 10px;
+}
+
+header a{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 22px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 78px auto;
+  width: 1200px;
+  padding-top: 69px;
+  align-items: center;
+}
+
+.mission{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  background-image: url("../res/img-mission-background.jpg");
+}
+
+.mission .text{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.mission h1{
+  margin-bottom: 0;
+}
+
+h3{
+  margin-top: 0;
+}
+
+.month{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+}
+
+.section img{
+  height: 200px;
+  width: 300px;
+  margin: auto 10px 20px 10px;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+}
+
+.sec1{
+  display: flex;
+  flex-direction: row;
+}
+
+.sec2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.locations{
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../res/img-locations-background.jpg");
+  align-items: center;
+  justify-content: center;
+}
+
+.locations h1{
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.places{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.name{
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 275px;
+  height: 275px;
+  align-items: center;
+  justify-content: center;
+}
+
+.name nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name span{
+  margin-top: 15px;
+}
+
+footer{
+  display: flex;
+  //position: fixed;
+  color: seashell;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h2,h5{
+  margin-bottom: 0;
+}
+
+footer h4{
+  margin-left: 20px;
+  align-self: flex-start;
+}
